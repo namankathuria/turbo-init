@@ -52,7 +52,7 @@ if (prefs.credentials) {
                     .commit('Initial commit')
                     .addRemote('origin', repo.links.clone[1].href)
                     .push('origin', 'master')
-                    .then(function(){
+                    .exec(function(){
                       status.stop();
                         console.log(chalk.green('Your repository is created successfully. You can begin with MAGIC.....'));
                     });
