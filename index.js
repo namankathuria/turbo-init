@@ -54,7 +54,7 @@ if (prefs.credentials) {
                     .push('origin', 'master')
                     .then(function(){
                       status.stop();
-                        console.log(chalk.green('Your repository is created successfully. You ca begin with MAGIC.....'));
+                        console.log(chalk.green('Your repository is created successfully. You can begin with MAGIC.....'));
                     });
                 },function(error){
                       console.log('error', error); 
