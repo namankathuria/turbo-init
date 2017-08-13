@@ -1,0 +1,30 @@
+{
+  "name": "turbo-init",
+  "version": "1.0.0",
+  "description": "This app will help to init the project and create the remote repo and push the initial code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "tinit": "./index.js"
+  },
+  "author": "Naman Kathuria",
+  "license": "ISC",
+  "dependencies": {
+    "bitbucketjs": "^1.0.2",
+    "chalk": "^2.0.1",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "github": "^9.2.0",
+    "inquirer": "^3.2.0",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "preferences": "^0.2.1",
+    "q": "^1.5.0",
+    "simple-git": "^1.73.0",
+    "slug": "^0.9.1",
+    "touch": "^3.1.0"
+  }
+}
