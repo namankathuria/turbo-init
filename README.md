@@ -14,3 +14,7 @@ tinit
 
 
 Go... Do some crazy stuff
+
+```
+As of now it only works with Bitbucket
+```
