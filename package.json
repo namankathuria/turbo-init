@@ -1,12 +1,12 @@
 {
   "name": "turbo-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This app will help to init the project and create the remote repo and push the initial code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":{
+  "bin": {
     "tinit": "./index.js"
   },
   "author": "Naman Kathuria",
