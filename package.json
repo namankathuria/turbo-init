@@ -1,10 +1,15 @@
 {
   "name": "turbo-init",
+  "email": "namankathuria@hotmail.com",
   "version": "1.0.4",
   "description": "This app will help to init the project and create the remote repo and push the initial code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/namankathuria/turbo-init.git"
   },
   "bin": {
     "tinit": "./index.js"
