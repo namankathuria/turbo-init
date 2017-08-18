@@ -34,11 +34,16 @@ var status = new Spinner('Authenticating you, please wait...');
 if (prefs.credentials) {
     status.start();
     vendors.connect(status, prefs.credentials).then(function(bb){
-        console.log(bb);
+        init(status);
+        //console.log(bb);
     },function(error){
           console.log('error', error); 
      });
 }else{
+    init(status);
+}
+
+function init(status) {
     vendors.getCredentials(status).then(function(params){
         vendors.connect(status, params).then(function(bb){
             var createStatus = new Spinner('Creating Repo.....');
