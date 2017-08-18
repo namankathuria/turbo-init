@@ -21,7 +21,7 @@ var prefs = new Preferences('turbo-init');
 clear();
 console.log(
   chalk.yellow(
-    figlet.textSync('Turbo-Init', { horizontalLayout: 'full', font: 'doom' })
+    figlet.textSync('Turbo-Init', { horizontalLayout: 'full', font: 'Doom' })
     )
 );
 
