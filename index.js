@@ -55,7 +55,7 @@ function init(status) {
                     .add('.gitignore')
                     .add('./*')
                     .commit('Initial commit')
-                    .addRemote('origin', repo.links.clone[1].href)
+                    .addRemote('origin', repo.links.clone[0].href)
                     .push('origin', 'master')
                     .exec(function(){
                       status.stop();
