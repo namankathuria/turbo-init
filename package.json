@@ -1,7 +1,7 @@
 {
   "name": "turbo-init",
   "email": "namankathuria@hotmail.com",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "This app will help to init the project and create the remote repo and push the initial code",
   "main": "index.js",
   "scripts": {
