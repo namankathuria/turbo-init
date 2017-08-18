@@ -16,12 +16,12 @@ var bitbucket = require('bitbucketjs');
 
 var files = require('./lib/files');
 var vendors = require('./lib/vendors');
-var prefs = new Preferences('easy-init');
+var prefs = new Preferences('turbo-init');
 
 clear();
 console.log(
   chalk.yellow(
-    figlet.textSync('Turbo-Init', { horizontalLayout: 'full', font: 'slant' })
+    figlet.textSync('Turbo-Init', { horizontalLayout: 'full', font: 'doom' })
     )
 );
 
